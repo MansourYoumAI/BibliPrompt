@@ -73,9 +73,7 @@ def render_sidebar():
     </div>
     """, unsafe_allow_html=True)
     
-    # Logo placeholder
-    st.sidebar.markdown("---")
-    st.sidebar.markdown("**LOGO**")
+    # Top separator (kept minimal, removed placeholder label)
     st.sidebar.markdown("---")
     
     # Function selection (v1: Sales only)
